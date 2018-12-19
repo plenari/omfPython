@@ -119,7 +119,7 @@ def pave(data):
             将数据的中心对准数组的中心
             '''
             youself=v[xyz].shape[0]#第几个切片的xyz变量，的长度
-            start=getPaveIndex(youself,lens=170)
+            start=getPaveIndex(youself,lens=len_index)
             planei[start:start+youself,i]=v[xyz]
         plane.append(planei)
     return plane
