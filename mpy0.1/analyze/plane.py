@@ -34,8 +34,8 @@ from analyze.fit import Fit
 
 
 if __name__=='__main__':
-    #fdir=input('输入需要处理文件的文件夹地址:')    
-    fdir=r'K:\模拟结果\曲率半径大于80的弯曲曲面\rectangle-Hz'
+    fdir=input('输入需要处理文件的文件夹地址:')    
+    #fdir=r'K:\模拟结果\曲率半径大于80的弯曲曲面\rectangle-Hz'
     filenames=selectSuffix(fdir,'.ovf')[1][124:]#前三百个以.ovf结尾的文件
     maxSkyr=4#处理过程中最多有多少个斯个明子
     
